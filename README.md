@@ -7,6 +7,7 @@ Then you can distribute this box for sharing. For example on another machine:
 
 - install virtualbox  and vagrant
 - copy  Vagrantfile and kubeadm-v.11.box to your machine
+  scp -r xxx@9.46.64.12:/root/istioworkshop/ ./
 - vagrant box add kubeadm-v1.11.box --name kubeadm-v1.11
 - vagrant up
 
