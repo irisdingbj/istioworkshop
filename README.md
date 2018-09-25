@@ -17,6 +17,7 @@ Up till now you should be to access the cluster either from inside the cluster, 
 
 - from inside
     - vagrant ssh
+    - wait for a few while to let the kube api server get started. "ps -ef|grep apiserver"
     - kubectl get node
 - from outside, on the host machine
     - mkdir ~/.kube
